@@ -1,0 +1,10 @@
+﻿{
+  "name": "com.leon-nikolai.field-ref",
+  "version": "1.0.0",
+  "displayName": "Field Reference Enum",
+  "description": "This package allows the automatic generation of enum based on fields.",
+  "author": {
+    "name": "Leon Nikolai",
+    "url": "https://github.com/LeonNikolai"
+  }
+}
