@@ -33,7 +33,7 @@ public class EnumRefGenerator : IIncrementalGenerator
         var symbols = new List<INamedTypeSymbol>();
         foreach (var attributeData in classSymbol.GetAttributes())
         {
-            if (attributeData.AttributeClass?.ToDisplayString() == "FieldRef.FieldEnumAttribute")
+            if (attributeData.AttributeClass?.ToDisplayString() == "Leon.FieldRef.FieldEnumAttribute")
             {
                 var arg = attributeData.ConstructorArguments[0];
                 if (arg.Value is INamedTypeSymbol typeSymbol)
