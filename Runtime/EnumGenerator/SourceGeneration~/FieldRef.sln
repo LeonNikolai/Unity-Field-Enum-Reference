@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneration", "SourceGeneration\SourceGeneration\SourceGeneration.csproj", "{8C580C4F-BEA8-4B4C-9165-EFC6893E037A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldRef", "SourceGeneration\FieldRef\FieldRef.csproj", "{8C580C4F-BEA8-4B4C-9165-EFC6893E037A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

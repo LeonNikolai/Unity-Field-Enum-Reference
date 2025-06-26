@@ -1,6 +1,6 @@
 {
-    "name": "FieldRef",
-    "rootNamespace": "FieldRef",
+    "name": "Leon.FieldRef",
+    "rootNamespace": "Leon.FieldRef",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
