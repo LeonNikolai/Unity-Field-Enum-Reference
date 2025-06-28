@@ -3,6 +3,16 @@ A package that aims to reduce reflection by automatically generating code to acc
 
 This relies on the [rozlyn source generators](https://docs.unity3d.com/6000.1/Documentation/Manual/roslyn-analyzers.html).
 
+## Installation
+### Using the Unity Package Manager
+1. Open Package Manager
+    - In the window topbar menu navigate `Window/Package Management/Package Manager`
+2. Install from git url
+    - Click the + icon, then click "Install package from git URL..."
+3. In the name field input, type either `https://github.com/LeonNikolai/Unity-Field-Enum-Reference.git`.
+### Using manifest.json
+1. Navigate to and open `/Packages/manifest.json` in your unity project folder (Not /Assets)
+2. Add the line     `"com.leon-nikolai.field-ref": "https://github.com/LeonNikolai/Unity-Field-Enum-Reference.git",`, anywhere between `"dependencies":{` and the next `}`
 ## Usage Examples 
 ```csharp
 using FieldRef;
